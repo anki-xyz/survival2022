@@ -8,6 +8,7 @@ This is how I install it:
 
     https://github.com/anki-xyz/survival2022.git
 
-Hugs and kisses
-...
 
+## How to cite this repository
+
+tbd.
