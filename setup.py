@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+
+# read the contents of your README file
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
+setup(
+    name="survival2022",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    version="0.1.0", # major minor patch
+    author="Andreas M Kist",
+    author_email="andreas.kist@fau.de",
+    license="GPLv3",
+    packages=find_packages(),
+    install_requires=[
+        
+    ],
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+    ],
+    keywords="survival course",
+    description="All content from the Survival Skills Course 2022.",
+    project_urls={
+        "Source": "https://github.com/anki-xyz/survival2022",
+        "Tracker": "https://github.com/anki-xyz/survival2022/issues",
+    },
+    include_package_data=True,
+)

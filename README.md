@@ -9,6 +9,9 @@ This is how I install it:
     https://github.com/anki-xyz/survival2022.git
 
 
-## How to cite this repository
+## How to use this:
 
-tbd.
+    from survival2022.plot import noOutline
+    noOutline()
+
+    
