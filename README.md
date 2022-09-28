@@ -14,4 +14,10 @@ This is how I install it:
     from survival2022.plot import noOutline
     noOutline()
 
-    
+## How I got h5py to work
+
+    pip uninstall tables
+
+    conda install -c conda-forge pytables
+
+Then it worked like a charm!
