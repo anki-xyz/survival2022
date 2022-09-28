@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 .vscode/
 
-examples/
+examples/*.png
+examples/*.pdf
+examples/*.svg
+examples/*.emf
